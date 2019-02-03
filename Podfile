@@ -7,6 +7,8 @@ target 'DoguineoRx' do
 
   # Pods for DoguineoRx
 
+  pod 'Moya'
+  pod 'EVReflection/MoyaRxSwift'
   pod 'RxSwift'
 
 end
