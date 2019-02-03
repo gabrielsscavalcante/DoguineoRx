@@ -1,0 +1,6 @@
+framework module Pods_DoguineoRx {
+  umbrella header "Pods-DoguineoRx-umbrella.h"
+
+  export *
+  module * { export * }
+}

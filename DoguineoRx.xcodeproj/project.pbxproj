@@ -12,6 +12,7 @@
 		6109AB2322066B2C00FA17AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6109AB2122066B2C00FA17AB /* Main.storyboard */; };
 		6109AB2522066B2E00FA17AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6109AB2422066B2E00FA17AB /* Assets.xcassets */; };
 		6109AB2822066B2E00FA17AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6109AB2622066B2E00FA17AB /* LaunchScreen.storyboard */; };
+		C9429957CC6669FA749BCDE6 /* Pods_DoguineoRx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE224824B135A8E916142121 /* Pods_DoguineoRx.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,9 @@
 		6109AB2422066B2E00FA17AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6109AB2722066B2E00FA17AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6109AB2922066B2E00FA17AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC1DD0E3321D22C9D4CE8E39 /* Pods-DoguineoRx.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoguineoRx.release.xcconfig"; path = "Pods/Target Support Files/Pods-DoguineoRx/Pods-DoguineoRx.release.xcconfig"; sourceTree = "<group>"; };
+		BE224824B135A8E916142121 /* Pods_DoguineoRx.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DoguineoRx.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D84C8812EE56BB44C49F75C8 /* Pods-DoguineoRx.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoguineoRx.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DoguineoRx/Pods-DoguineoRx.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +33,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9429957CC6669FA749BCDE6 /* Pods_DoguineoRx.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5E748424DE5A8F70A135A288 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE224824B135A8E916142121 /* Pods_DoguineoRx.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6109AB1122066B2C00FA17AB = {
 			isa = PBXGroup;
 			children = (
 				6109AB1C22066B2C00FA17AB /* DoguineoRx */,
 				6109AB1B22066B2C00FA17AB /* Products */,
+				905EDC853934779C095E8705 /* Pods */,
+				5E748424DE5A8F70A135A288 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +79,15 @@
 			path = DoguineoRx;
 			sourceTree = "<group>";
 		};
+		905EDC853934779C095E8705 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D84C8812EE56BB44C49F75C8 /* Pods-DoguineoRx.debug.xcconfig */,
+				BC1DD0E3321D22C9D4CE8E39 /* Pods-DoguineoRx.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +95,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6109AB2C22066B2E00FA17AB /* Build configuration list for PBXNativeTarget "DoguineoRx" */;
 			buildPhases = (
+				76A549EED07852A0D67E3834 /* [CP] Check Pods Manifest.lock */,
 				6109AB1622066B2C00FA17AB /* Sources */,
 				6109AB1722066B2C00FA17AB /* Frameworks */,
 				6109AB1822066B2C00FA17AB /* Resources */,
+				263F2031C408A829E8FE27ED /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -129,6 +155,45 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		263F2031C408A829E8FE27ED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DoguineoRx/Pods-DoguineoRx-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DoguineoRx/Pods-DoguineoRx-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76A549EED07852A0D67E3834 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DoguineoRx-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6109AB1622066B2C00FA17AB /* Sources */ = {
@@ -280,15 +345,13 @@
 		};
 		6109AB2D22066B2E00FA17AB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D84C8812EE56BB44C49F75C8 /* Pods-DoguineoRx.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YY4FY5E467;
 				INFOPLIST_FILE = DoguineoRx/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gabrielcavalcante.DoguineoRx;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -298,15 +361,13 @@
 		};
 		6109AB2E22066B2E00FA17AB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC1DD0E3321D22C9D4CE8E39 /* Pods-DoguineoRx.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YY4FY5E467;
 				INFOPLIST_FILE = DoguineoRx/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gabrielcavalcante.DoguineoRx;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
