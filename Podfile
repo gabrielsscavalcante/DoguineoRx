@@ -10,5 +10,8 @@ target 'DoguineoRx' do
   pod 'Moya'
   pod 'EVReflection/MoyaRxSwift'
   pod 'RxSwift'
+  pod 'RxCocoa'
+  pod 'AutoLayouty'
+  pod 'Swinject'
 
 end

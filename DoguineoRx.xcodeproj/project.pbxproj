@@ -8,29 +8,57 @@
 
 /* Begin PBXBuildFile section */
 		6109AB1E22066B2C00FA17AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6109AB1D22066B2C00FA17AB /* AppDelegate.swift */; };
-		6109AB2022066B2C00FA17AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6109AB1F22066B2C00FA17AB /* ViewController.swift */; };
-		6109AB2322066B2C00FA17AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6109AB2122066B2C00FA17AB /* Main.storyboard */; };
+		6109AB2022066B2C00FA17AB /* ApresentationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6109AB1F22066B2C00FA17AB /* ApresentationViewController.swift */; };
 		6109AB2522066B2E00FA17AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6109AB2422066B2E00FA17AB /* Assets.xcassets */; };
 		6109AB2822066B2E00FA17AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6109AB2622066B2E00FA17AB /* LaunchScreen.storyboard */; };
-		6196EFED2207344800DB8344 /* DogApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6196EFEC2207344800DB8344 /* DogApi.swift */; };
+		6196EFED2207344800DB8344 /* DogRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6196EFEC2207344800DB8344 /* DogRouter.swift */; };
 		6196EFF1220739FD00DB8344 /* DogRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6196EFF0220739FD00DB8344 /* DogRepository.swift */; };
 		6196EFF322073A8C00DB8344 /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6196EFF222073A8C00DB8344 /* Dog.swift */; };
-		6196EFF722074BB200DB8344 /* NetworkAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6196EFF622074BB200DB8344 /* NetworkAdapter.swift */; };
+		6196EFF722074BB200DB8344 /* DogService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6196EFF622074BB200DB8344 /* DogService.swift */; };
+		6196EFFB2207941100DB8344 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6196EFFA2207941100DB8344 /* String+Extension.swift */; };
+		6196EFFE2207960800DB8344 /* DrawViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6196EFFD2207960800DB8344 /* DrawViewController.swift */; };
+		6196F0022207979500DB8344 /* DogTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6196F0002207979500DB8344 /* DogTableViewCell.swift */; };
+		6196F0032207979500DB8344 /* DogTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6196F0012207979500DB8344 /* DogTableViewCell.xib */; };
+		6196F0052207A21100DB8344 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6196F0042207A21100DB8344 /* UIView+Extension.swift */; };
+		6196F0072207A24100DB8344 /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6196F0062207A24100DB8344 /* UITableView+Extension.swift */; };
+		6196F00D2207A5C900DB8344 /* ApresentationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6196F00C2207A5C900DB8344 /* ApresentationViewModel.swift */; };
+		6196F0132207ABF400DB8344 /* UIImageView+Extenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6196F0122207ABF400DB8344 /* UIImageView+Extenstion.swift */; };
+		6196F0162207AC9C00DB8344 /* DefaultContainter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6196F0152207AC9C00DB8344 /* DefaultContainter.swift */; };
+		6196F0182207AEA200DB8344 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6196F0172207AEA200DB8344 /* Service.swift */; };
+		6196F01A2207AF7200DB8344 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6196F0192207AF7200DB8344 /* Repository.swift */; };
+		6196F01C2207B07A00DB8344 /* DogResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6196F01B2207B07A00DB8344 /* DogResponse.swift */; };
+		6196F01E2207BCA900DB8344 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6196F01D2207BCA900DB8344 /* Coordinator.swift */; };
+		6196F0222207BD3C00DB8344 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6196F0212207BD3C00DB8344 /* AppCoordinator.swift */; };
+		61DFF61D2207FE2400D9F3D3 /* DogTableViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61DFF61C2207FE2400D9F3D3 /* DogTableViewCellViewModel.swift */; };
 		C9429957CC6669FA749BCDE6 /* Pods_DoguineoRx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE224824B135A8E916142121 /* Pods_DoguineoRx.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6109AB1A22066B2C00FA17AB /* DoguineoRx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoguineoRx.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6109AB1D22066B2C00FA17AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6109AB1F22066B2C00FA17AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6109AB2222066B2C00FA17AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6109AB1F22066B2C00FA17AB /* ApresentationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApresentationViewController.swift; sourceTree = "<group>"; };
 		6109AB2422066B2E00FA17AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6109AB2722066B2E00FA17AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6109AB2922066B2E00FA17AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6196EFEC2207344800DB8344 /* DogApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogApi.swift; sourceTree = "<group>"; };
+		6196EFEC2207344800DB8344 /* DogRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogRouter.swift; sourceTree = "<group>"; };
 		6196EFF0220739FD00DB8344 /* DogRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogRepository.swift; sourceTree = "<group>"; };
 		6196EFF222073A8C00DB8344 /* Dog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
-		6196EFF622074BB200DB8344 /* NetworkAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkAdapter.swift; sourceTree = "<group>"; };
+		6196EFF622074BB200DB8344 /* DogService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DogService.swift; sourceTree = "<group>"; };
+		6196EFFA2207941100DB8344 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		6196EFFD2207960800DB8344 /* DrawViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawViewController.swift; sourceTree = "<group>"; };
+		6196F0002207979500DB8344 /* DogTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogTableViewCell.swift; sourceTree = "<group>"; };
+		6196F0012207979500DB8344 /* DogTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DogTableViewCell.xib; sourceTree = "<group>"; };
+		6196F0042207A21100DB8344 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		6196F0062207A24100DB8344 /* UITableView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
+		6196F00C2207A5C900DB8344 /* ApresentationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApresentationViewModel.swift; sourceTree = "<group>"; };
+		6196F0122207ABF400DB8344 /* UIImageView+Extenstion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extenstion.swift"; sourceTree = "<group>"; };
+		6196F0152207AC9C00DB8344 /* DefaultContainter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultContainter.swift; sourceTree = "<group>"; };
+		6196F0172207AEA200DB8344 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		6196F0192207AF7200DB8344 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		6196F01B2207B07A00DB8344 /* DogResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogResponse.swift; sourceTree = "<group>"; };
+		6196F01D2207BCA900DB8344 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		6196F0212207BD3C00DB8344 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		61DFF61C2207FE2400D9F3D3 /* DogTableViewCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogTableViewCellViewModel.swift; sourceTree = "<group>"; };
 		BC1DD0E3321D22C9D4CE8E39 /* Pods-DoguineoRx.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoguineoRx.release.xcconfig"; path = "Pods/Target Support Files/Pods-DoguineoRx/Pods-DoguineoRx.release.xcconfig"; sourceTree = "<group>"; };
 		BE224824B135A8E916142121 /* Pods_DoguineoRx.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DoguineoRx.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D84C8812EE56BB44C49F75C8 /* Pods-DoguineoRx.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoguineoRx.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DoguineoRx/Pods-DoguineoRx.debug.xcconfig"; sourceTree = "<group>"; };
@@ -77,73 +105,54 @@
 		6109AB1C22066B2C00FA17AB /* DoguineoRx */ = {
 			isa = PBXGroup;
 			children = (
-				6196EFEB2207341F00DB8344 /* Utils */,
 				6196EFEA2207341300DB8344 /* AppDelegate */,
-				6196EFE3220733AF00DB8344 /* Coordinator */,
-				6196EFE92207340500DB8344 /* Networking */,
-				6196EFE4220733B800DB8344 /* Repository */,
-				6196EFE6220733C400DB8344 /* Model */,
-				6196EFE7220733CA00DB8344 /* View */,
-				6196EFE5220733BF00DB8344 /* ViewModel */,
-				6196EFE8220733D200DB8344 /* Controller */,
+				6196F0142207AC7E00DB8344 /* Container */,
+				6196EFF9220793ED00DB8344 /* Extensions */,
+				6196EFE3220733AF00DB8344 /* Coordinators */,
+				6196EFE92207340500DB8344 /* Services */,
+				6196EFE4220733B800DB8344 /* Repositories */,
+				6196EFE6220733C400DB8344 /* Models */,
+				6196F00E2207A9A300DB8344 /* Modules */,
+				6196EFEB2207341F00DB8344 /* Resources */,
 			);
 			path = DoguineoRx;
 			sourceTree = "<group>";
 		};
-		6196EFE3220733AF00DB8344 /* Coordinator */ = {
+		6196EFE3220733AF00DB8344 /* Coordinators */ = {
 			isa = PBXGroup;
 			children = (
+				6196F01D2207BCA900DB8344 /* Coordinator.swift */,
+				6196F0212207BD3C00DB8344 /* AppCoordinator.swift */,
 			);
-			path = Coordinator;
+			path = Coordinators;
 			sourceTree = "<group>";
 		};
-		6196EFE4220733B800DB8344 /* Repository */ = {
+		6196EFE4220733B800DB8344 /* Repositories */ = {
 			isa = PBXGroup;
 			children = (
+				6196F0192207AF7200DB8344 /* Repository.swift */,
 				6196EFF0220739FD00DB8344 /* DogRepository.swift */,
 			);
-			path = Repository;
+			path = Repositories;
 			sourceTree = "<group>";
 		};
-		6196EFE5220733BF00DB8344 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
-		6196EFE6220733C400DB8344 /* Model */ = {
+		6196EFE6220733C400DB8344 /* Models */ = {
 			isa = PBXGroup;
 			children = (
 				6196EFF222073A8C00DB8344 /* Dog.swift */,
+				6196F01B2207B07A00DB8344 /* DogResponse.swift */,
 			);
-			path = Model;
+			path = Models;
 			sourceTree = "<group>";
 		};
-		6196EFE7220733CA00DB8344 /* View */ = {
+		6196EFE92207340500DB8344 /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				6109AB2622066B2E00FA17AB /* LaunchScreen.storyboard */,
-				6109AB2122066B2C00FA17AB /* Main.storyboard */,
+				6196EFF822074BB800DB8344 /* Router */,
+				6196F0172207AEA200DB8344 /* Service.swift */,
+				6196EFF622074BB200DB8344 /* DogService.swift */,
 			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		6196EFE8220733D200DB8344 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				6109AB1F22066B2C00FA17AB /* ViewController.swift */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		6196EFE92207340500DB8344 /* Networking */ = {
-			isa = PBXGroup;
-			children = (
-				6196EFF822074BB800DB8344 /* API */,
-				6196EFF622074BB200DB8344 /* NetworkAdapter.swift */,
-			);
-			path = Networking;
+			path = Services;
 			sourceTree = "<group>";
 		};
 		6196EFEA2207341300DB8344 /* AppDelegate */ = {
@@ -154,21 +163,78 @@
 			path = AppDelegate;
 			sourceTree = "<group>";
 		};
-		6196EFEB2207341F00DB8344 /* Utils */ = {
+		6196EFEB2207341F00DB8344 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				6109AB2422066B2E00FA17AB /* Assets.xcassets */,
+				6109AB2622066B2E00FA17AB /* LaunchScreen.storyboard */,
 				6109AB2922066B2E00FA17AB /* Info.plist */,
+				6109AB2422066B2E00FA17AB /* Assets.xcassets */,
 			);
-			path = Utils;
+			path = Resources;
 			sourceTree = "<group>";
 		};
-		6196EFF822074BB800DB8344 /* API */ = {
+		6196EFF822074BB800DB8344 /* Router */ = {
 			isa = PBXGroup;
 			children = (
-				6196EFEC2207344800DB8344 /* DogApi.swift */,
+				6196EFEC2207344800DB8344 /* DogRouter.swift */,
 			);
-			path = API;
+			path = Router;
+			sourceTree = "<group>";
+		};
+		6196EFF9220793ED00DB8344 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6196EFFA2207941100DB8344 /* String+Extension.swift */,
+				6196F0042207A21100DB8344 /* UIView+Extension.swift */,
+				6196F0062207A24100DB8344 /* UITableView+Extension.swift */,
+				6196F0122207ABF400DB8344 /* UIImageView+Extenstion.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6196EFFF2207977300DB8344 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				61DFF61C2207FE2400D9F3D3 /* DogTableViewCellViewModel.swift */,
+				6196F0002207979500DB8344 /* DogTableViewCell.swift */,
+				6196F0012207979500DB8344 /* DogTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		6196F00E2207A9A300DB8344 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				6196EFFF2207977300DB8344 /* Cells */,
+				6196F00F2207A9B800DB8344 /* Apresentation */,
+				6196F0102207A9C100DB8344 /* Draw */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		6196F00F2207A9B800DB8344 /* Apresentation */ = {
+			isa = PBXGroup;
+			children = (
+				6196F00C2207A5C900DB8344 /* ApresentationViewModel.swift */,
+				6109AB1F22066B2C00FA17AB /* ApresentationViewController.swift */,
+			);
+			path = Apresentation;
+			sourceTree = "<group>";
+		};
+		6196F0102207A9C100DB8344 /* Draw */ = {
+			isa = PBXGroup;
+			children = (
+				6196EFFD2207960800DB8344 /* DrawViewController.swift */,
+			);
+			path = Draw;
+			sourceTree = "<group>";
+		};
+		6196F0142207AC7E00DB8344 /* Container */ = {
+			isa = PBXGroup;
+			children = (
+				6196F0152207AC9C00DB8344 /* DefaultContainter.swift */,
+			);
+			path = Container;
 			sourceTree = "<group>";
 		};
 		905EDC853934779C095E8705 /* Pods */ = {
@@ -242,7 +308,7 @@
 			files = (
 				6109AB2822066B2E00FA17AB /* LaunchScreen.storyboard in Resources */,
 				6109AB2522066B2E00FA17AB /* Assets.xcassets in Resources */,
-				6109AB2322066B2C00FA17AB /* Main.storyboard in Resources */,
+				6196F0032207979500DB8344 /* DogTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,18 +323,24 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-DoguineoRx/Pods-DoguineoRx-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AutoLayouty/AutoLayouty.framework",
 				"${BUILT_PRODUCTS_DIR}/EVReflection/EVReflection.framework",
 				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
 				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Swinject/Swinject.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AutoLayouty.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EVReflection.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Swinject.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -300,26 +372,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6196EFF722074BB200DB8344 /* NetworkAdapter.swift in Sources */,
-				6196EFED2207344800DB8344 /* DogApi.swift in Sources */,
-				6109AB2022066B2C00FA17AB /* ViewController.swift in Sources */,
+				6196F0072207A24100DB8344 /* UITableView+Extension.swift in Sources */,
+				6196F0162207AC9C00DB8344 /* DefaultContainter.swift in Sources */,
+				6196EFFE2207960800DB8344 /* DrawViewController.swift in Sources */,
+				6196EFF722074BB200DB8344 /* DogService.swift in Sources */,
+				6196F01C2207B07A00DB8344 /* DogResponse.swift in Sources */,
+				6196EFFB2207941100DB8344 /* String+Extension.swift in Sources */,
+				6196F01E2207BCA900DB8344 /* Coordinator.swift in Sources */,
+				6196EFED2207344800DB8344 /* DogRouter.swift in Sources */,
+				6196F00D2207A5C900DB8344 /* ApresentationViewModel.swift in Sources */,
+				6109AB2022066B2C00FA17AB /* ApresentationViewController.swift in Sources */,
+				6196F0182207AEA200DB8344 /* Service.swift in Sources */,
+				6196F0222207BD3C00DB8344 /* AppCoordinator.swift in Sources */,
 				6196EFF322073A8C00DB8344 /* Dog.swift in Sources */,
 				6196EFF1220739FD00DB8344 /* DogRepository.swift in Sources */,
+				6196F01A2207AF7200DB8344 /* Repository.swift in Sources */,
+				61DFF61D2207FE2400D9F3D3 /* DogTableViewCellViewModel.swift in Sources */,
 				6109AB1E22066B2C00FA17AB /* AppDelegate.swift in Sources */,
+				6196F0052207A21100DB8344 /* UIView+Extension.swift in Sources */,
+				6196F0022207979500DB8344 /* DogTableViewCell.swift in Sources */,
+				6196F0132207ABF400DB8344 /* UIImageView+Extenstion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		6109AB2122066B2C00FA17AB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6109AB2222066B2C00FA17AB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		6109AB2622066B2E00FA17AB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -454,14 +532,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YY4FY5E467;
-				INFOPLIST_FILE = DoguineoRx/Utils/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/DoguineoRx/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.gabrielcavalcante.DoguineoRx;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -473,14 +551,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YY4FY5E467;
-				INFOPLIST_FILE = DoguineoRx/Utils/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/DoguineoRx/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.gabrielcavalcante.DoguineoRx;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
